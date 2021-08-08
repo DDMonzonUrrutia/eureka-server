@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: eureka-server
+
+  cloud:
+    config:
+      uri: https://config-server.mybluemix.net/
+      username: ${SECURITY_USERNAME}
+      password: ${SECURITY_PASSWORD}
