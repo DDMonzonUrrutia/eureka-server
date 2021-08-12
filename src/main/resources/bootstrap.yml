@@ -7,3 +7,4 @@ spring:
       uri: https://config-server.mybluemix.net/
       username: ${SECURITY_USERNAME}
       password: ${SECURITY_PASSWORD}
+      
